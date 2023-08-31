@@ -5,12 +5,12 @@
 </script>
 
 <div class="flex grow relative">
-	<div class="grow w-full" id="main">
-		<div id="nav-container" class="top-0 sticky z-[50]" data-turbo-permanent>
+	<div class="grow w-full">
+		<div class="top-0 sticky z-[50]">
 			<div
 				class="w-full flex items-center shadow-sm font-bold dark:border-b dark:border-dark-border sticky space-x-3 z-[50] bg-white dark:bg-dark-background dark:text-gray-200 text-gray-700 mb-4 h-[40px]"
 			>
-				<nav data-controller="nav">
+				<nav class="flex max-w-3xl px-4 py-2 mx-auto w-full items-center">
 					<a
 						href="/"
 						class="hover:opacity-100 py-2 text-center opacity-3 mr-5"
